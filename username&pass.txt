@@ -1,0 +1,21 @@
+Login Ke Sistem
+
+Hak Akses = Administrator :
+username : admin
+password : 123
+
+Hak Akses = Petugas : 
+username : petugas
+password : 123
+
+Hak Akses = Pemilih :
+username : zacky
+username : azel
+username : daniel
+username : annisa
+username : daffa
+username : siska
+username : katsir
+username : cici
+username : wira
+password : 1234
