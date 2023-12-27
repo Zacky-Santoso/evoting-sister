@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 24, 2023 at 03:21 PM
+-- Generation Time: Dec 27, 2023 at 04:49 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -101,7 +101,7 @@ INSERT INTO `tb_pengguna` (`id_pengguna`, `nama_pengguna`, `username`, `password
 (2, 'Zacky Santoso', 'zacky', '1234', 'Pemilih', '1', 'PST'),
 (3, 'Azel Fahrezi', 'azel', '1234', 'Pemilih', '1', 'PST'),
 (4, 'Petugas Pemilihan', 'petugas', '123', 'Petugas', '1', 'PAN'),
-(5, 'Daniel Edwardo manurung', 'daniel', '1234', 'Pemilih', '1', 'PST'),
+(5, 'Daniel Edwardo Manurung', 'daniel', '1234', 'Pemilih', '1', 'PST'),
 (6, 'Annisa Pratiwi', 'annisa', '1234', 'Pemilih', '1', 'PST'),
 (35, 'Daffa Yuimujahida', 'daffa', '1234', 'Pemilih', '1', 'PST'),
 (36, 'Siska Wulandari', 'siska', '1234', 'Pemilih', '1', 'PST'),
@@ -301,7 +301,7 @@ ALTER TABLE `tb_votepemilih`
 -- AUTO_INCREMENT for table `tb_calon`
 --
 ALTER TABLE `tb_calon`
-  MODIFY `id_calon` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id_calon` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `tb_daftarvote`
@@ -313,7 +313,7 @@ ALTER TABLE `tb_daftarvote`
 -- AUTO_INCREMENT for table `tb_pengguna`
 --
 ALTER TABLE `tb_pengguna`
-  MODIFY `id_pengguna` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
+  MODIFY `id_pengguna` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=43;
 
 --
 -- AUTO_INCREMENT for table `tb_vote`
@@ -331,7 +331,7 @@ ALTER TABLE `tb_votekandidat`
 -- AUTO_INCREMENT for table `tb_votepemilih`
 --
 ALTER TABLE `tb_votepemilih`
-  MODIFY `votepemilih_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
+  MODIFY `votepemilih_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=55;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
