@@ -48,7 +48,7 @@ include "inc/koneksi.php";
 	<script src="plugins/alert.js"></script>
 	<!-- Auto Refresh  -->
 	<script src="plugins/jquery/jquery.js" type="text/javascript"></script>
-	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="shortcut icon" href="item.ico" />
 	<link rel="stylesheet" href="plugins/highcharts/code/highcharts.css">
 
 
